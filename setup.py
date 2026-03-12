@@ -47,7 +47,9 @@ setup(
         'sifter_extensions': [
             # sifter commands
             'pipe = sifter_extensions.commands.pipe:CommandPipe',
-            'rewrite = sifter_extensions.commands.rewrite:CommandRewrite'
+            'rewrite = sifter_extensions.commands.rewrite:CommandRewrite',
+            'envelope = sifter_extensions.tests.envelope:TestEnvelope',
+            'subaddress = sifter_extensions.tests.subaddress:SubaddressExtension',
         ]
     }
 )
