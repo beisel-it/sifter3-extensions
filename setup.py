@@ -51,6 +51,7 @@ setup(
             'envelope = sifter_extensions.tests.envelope:TestEnvelope',
             'subaddress = sifter_extensions.tests.subaddress:SubaddressExtension',
             'mime = sifter_extensions.tests.mime:MimeExtension',
+            'mailboxexists = sifter_extensions.tests.mailbox:TestMailboxExists',
         ]
     }
 )
